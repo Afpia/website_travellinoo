@@ -1,0 +1,130 @@
+.find {
+		margin-bottom: 112px;
+	&__nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 40px;
+	}
+	&__arrow {
+		display: flex;
+		gap: 16px;
+		align-items: center;
+	}
+	&__title {
+		margin: 0;
+	}
+	&__slide {
+		display: flex;
+		background-color: $white;
+		flex-direction: column;
+		padding: 16px;
+		border-radius: 4px;
+		user-select: none;
+		img {
+			padding-bottom: 16px;
+		}
+		h3 {
+			color: $grey;
+			font-size: 24px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 24px; /* 100% */
+			margin: 0;
+			padding-bottom: 14px;
+		}
+		h4 {
+			color: $grey;
+			margin: 0;
+			padding-bottom: 14px;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 18px;
+		}
+		h5 {
+			color: $light-green;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 16px;
+			margin: 0;
+			padding-bottom: 16px;
+		}
+		.find__cost {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			p {
+				color: $light-green;
+				font-size: 16px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 20px;
+				margin: 0;
+				span {
+					color: $grey;
+					font-size: 24px;
+					font-style: normal;
+					font-weight: 600;
+					line-height: 20px;
+					margin: 0;
+				}
+			}
+			button {
+				cursor: pointer;
+				background-color: $white;
+				padding: 16px 24px;
+				border-radius: 40px;
+				border: 1px solid $green;
+				color: $green;
+				font-size: 16px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: 16px;
+				font-family: $font-main;
+				outline: none;
+				transition: all 0.2s ease;
+				&:hover {
+					color: $white;
+					border: 1px solid $green;
+					background-color: $green;
+				}
+			}
+		}
+	}
+	&-next {
+		user-select: none;
+		&:active  circle{
+		stroke: #F8FDFF;
+	}
+	&:active  path {
+		stroke: #F8FDFF;
+	}
+	&:active  svg {
+		fill: #80A5B3 ;
+	} 
+	}
+	&-prev {
+		user-select: none;
+		&:active  circle{
+		stroke: #F8FDFF;
+	}
+	&:active  path {
+		stroke: #F8FDFF;
+	}
+	&:active svg {
+		fill: #80A5B3 ;
+	} 
+	}
+}
+
+.title-2 {
+	color: $grey;
+	font-family: $font-main;
+	font-size: 56px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 66px;
+	text-transform: capitalize;
+}

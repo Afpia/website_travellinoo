@@ -1,0 +1,117 @@
+.footer {
+	&__top {
+		max-height: 272px;
+		background-color: #c8dae1;
+	}
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__item {
+		display: flex;
+		flex-direction: column;
+		padding-top: 45px;
+		padding-bottom: 43px;
+		align-items: center;
+		h2 {
+			margin: 0;
+			font-family: $font-tertiary;
+			font-weight: 700;
+			font-size: 32px;
+			font-style: normal;
+			line-height: 100%;
+			letter-spacing: 0.32px;
+			display: flex;
+			align-items: center;
+			padding-bottom: 24px;
+			span {
+				color: #80a5b3;
+				font-family: $font-tertiary;
+				font-weight: 700;
+				font-size: 32px;
+				font-style: normal;
+				line-height: 100%;
+				letter-spacing: 0.32px;
+			}
+		}
+		.footer__img {
+			display: flex;
+			gap: 12px;
+			justify-content: center;
+		}
+		.footer__title {
+			color: $grey;
+			font-size: 24px;
+			font-family: $font-main;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 24px; /* 100% */
+			margin: 0;
+			padding-bottom: 24px;
+		}
+		p {
+			margin: 0;
+			color: $grey;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 24px; /* 150% */
+		}
+		a {
+			padding-bottom: 4px;
+		}
+		a:hover {
+			color: #000;
+			opacity: 0.6;
+		}
+		a:last-child  {
+		padding-bottom: 0px;
+		}
+	}
+	&__item-about {
+		display: inline-flex;
+		flex-direction: column;
+		padding-top: 45px;
+		padding-bottom: 43px;
+		.footer__about a {
+			display: inline-flex;
+			gap: 8px;
+			align-items: center;
+			padding-bottom: 16px;
+
+			h3 {
+				color: $grey;
+				font-size: 16px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: 24px;
+				margin: 0;
+			}
+			.footer__suptitle {
+				font-weight: 600;
+			}
+			.footer__suptitle-2 {
+				font-weight: 400;
+			}
+			.footer__about:last-child {
+				padding-bottom: 0px;
+			}
+		}
+		.footer__about:last-child a {
+			padding-bottom: 0px;
+		}
+	}
+
+}
+.footer__down {
+	p {
+		padding: 18px 0;
+		margin: 0;
+		text-align: center;
+		color: $grey;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px; /* 120% */
+	}
+}
