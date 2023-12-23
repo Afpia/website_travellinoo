@@ -1207,6 +1207,7 @@ a:hover {
   line-height: 16px; /* 100% */
   margin: 0;
 }
+
 .top__content--active {
   opacity: 1;
 }
